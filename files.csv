@@ -1,0 +1,136 @@
+id,package,class,method,kind
+1,java.base,java.io.Console,echo(boolean),files
+3,java.base,java.io.Console,istty(),files
+4,java.base,java.io.FileCleanable,"cleanupClose0(int, long)",files
+5,java.base,java.io.FileDescriptor,close0(),files
+6,java.base,java.io.FileDescriptor,getAppend(int),files
+9,java.base,java.io.FileDescriptor,sync(),files
+10,java.base,java.io.FileInputStream,available0(),files
+12,java.base,java.io.FileInputStream,length0(),files
+13,java.base,java.io.FileInputStream,open0(java.lang.String),files
+14,java.base,java.io.FileInputStream,position0(),files
+15,java.base,java.io.FileInputStream,read0(),files
+16,java.base,java.io.FileInputStream,"readBytes(byte[], int, int)",files
+17,java.base,java.io.FileInputStream,skip0(long),files
+19,java.base,java.io.FileOutputStream,"open0(java.lang.String, boolean)",files
+20,java.base,java.io.FileOutputStream,"write(int, boolean)",files
+21,java.base,java.io.FileOutputStream,"writeBytes(byte[], int, int, boolean)",files
+24,java.base,java.io.RandomAccessFile,getFilePointer(),files
+26,java.base,java.io.RandomAccessFile,length(),files
+27,java.base,java.io.RandomAccessFile,"open0(java.lang.String, int)",files
+28,java.base,java.io.RandomAccessFile,read0(),files
+29,java.base,java.io.RandomAccessFile,"readBytes(byte[], int, int)",files
+30,java.base,java.io.RandomAccessFile,seek0(long),files
+31,java.base,java.io.RandomAccessFile,setLength(long),files
+32,java.base,java.io.RandomAccessFile,write0(int),files
+33,java.base,java.io.RandomAccessFile,"writeBytes(byte[], int, int)",files
+34,java.base,java.io.UnixFileSystem,canonicalize0(java.lang.String),files
+35,java.base,java.io.UnixFileSystem,"checkAccess(java.io.File, int)",files
+36,java.base,java.io.UnixFileSystem,createDirectory(java.io.File),files
+37,java.base,java.io.UnixFileSystem,createFileExclusively(java.lang.String),files
+38,java.base,java.io.UnixFileSystem,delete0(java.io.File),files
+39,java.base,java.io.UnixFileSystem,getBooleanAttributes0(java.io.File),files
+40,java.base,java.io.UnixFileSystem,getLastModifiedTime(java.io.File),files
+41,java.base,java.io.UnixFileSystem,getLength(java.io.File),files
+42,java.base,java.io.UnixFileSystem,getNameMax0(java.lang.String),files
+43,java.base,java.io.UnixFileSystem,"getSpace(java.io.File, int)",files
+45,java.base,java.io.UnixFileSystem,list(java.io.File),files
+46,java.base,java.io.UnixFileSystem,"rename0(java.io.File, java.io.File)",files
+47,java.base,java.io.UnixFileSystem,"setLastModifiedTime(java.io.File, long)",files
+48,java.base,java.io.UnixFileSystem,"setPermission(java.io.File, int, boolean, boolean)",files
+49,java.base,java.io.UnixFileSystem,setReadOnly(java.io.File),files
+363,java.base,jdk.internal.jimage.NativeImageBuffer,getNativeMap(java.lang.String),files
+367,java.base,jdk.internal.loader.NativeLibraries,findBuiltinLib(java.lang.String),files
+369,java.base,jdk.internal.loader.NativeLibraries,"load(jdk.internal.loader.NativeLibraries$NativeLibraryImpl, java.lang.String, boolean, boolean, boolean)",files
+370,java.base,jdk.internal.loader.NativeLibraries,"unload(java.lang.String, boolean, boolean, long)",files
+372,java.base,jdk.internal.misc.CDS,dumpClassList(java.lang.String),files
+373,java.base,jdk.internal.misc.CDS,dumpDynamicArchive(java.lang.String),files
+377,java.base,jdk.internal.misc.CDS,isDumpingClassList0(),files
+379,java.base,jdk.internal.misc.CDS,logLambdaFormInvoker(java.lang.String),files
+515,java.base,sun.nio.ch.EPoll,create(),files
+516,java.base,sun.nio.ch.EPoll,"ctl(int, int, int, int)",files
+520,java.base,sun.nio.ch.EPoll,"wait(int, long, int, int)",files
+526,java.base,sun.nio.ch.FileChannelImpl,"transferTo0(java.io.FileDescriptor, long, long, java.io.FileDescriptor)",files
+527,java.base,sun.nio.ch.FileChannelImpl,"unmap0(long, long)",files
+529,java.base,sun.nio.ch.FileDispatcherImpl,close0(java.io.FileDescriptor),files
+530,java.base,sun.nio.ch.FileDispatcherImpl,closeIntFD(int),files
+531,java.base,sun.nio.ch.FileDispatcherImpl,"dup0(java.io.FileDescriptor, java.io.FileDescriptor)",files
+532,java.base,sun.nio.ch.FileDispatcherImpl,"force0(java.io.FileDescriptor, boolean)",files
+534,java.base,sun.nio.ch.FileDispatcherImpl,"lock0(java.io.FileDescriptor, boolean, long, long, boolean)",files
+535,java.base,sun.nio.ch.FileDispatcherImpl,"pread0(java.io.FileDescriptor, long, int, long)",files
+536,java.base,sun.nio.ch.FileDispatcherImpl,preClose0(java.io.FileDescriptor),files
+537,java.base,sun.nio.ch.FileDispatcherImpl,"pwrite0(java.io.FileDescriptor, long, int, long)",files
+538,java.base,sun.nio.ch.FileDispatcherImpl,"read0(java.io.FileDescriptor, long, int)",files
+539,java.base,sun.nio.ch.FileDispatcherImpl,"readv0(java.io.FileDescriptor, long, int)",files
+540,java.base,sun.nio.ch.FileDispatcherImpl,"release0(java.io.FileDescriptor, long, long)",files
+541,java.base,sun.nio.ch.FileDispatcherImpl,"seek0(java.io.FileDescriptor, long)",files
+542,java.base,sun.nio.ch.FileDispatcherImpl,setDirect0(java.io.FileDescriptor),files
+543,java.base,sun.nio.ch.FileDispatcherImpl,size0(java.io.FileDescriptor),files
+544,java.base,sun.nio.ch.FileDispatcherImpl,"truncate0(java.io.FileDescriptor, long)",files
+545,java.base,sun.nio.ch.FileDispatcherImpl,"write0(java.io.FileDescriptor, long, int)",files
+546,java.base,sun.nio.ch.FileDispatcherImpl,"writev0(java.io.FileDescriptor, long, int)",files
+547,java.base,sun.nio.ch.FileKey,init(java.io.FileDescriptor),files
+556,java.base,sun.nio.ch.InheritedChannel,"open0(java.lang.String, int)",files
+635,java.base,sun.nio.fs.LinuxNativeDispatcher,endmntent(long),files
+636,java.base,sun.nio.fs.LinuxNativeDispatcher,"getmntent0(long, sun.nio.fs.UnixMountEntry, long, int)",files
+638,java.base,sun.nio.fs.LinuxNativeDispatcher,"setmntent0(long, long)",files
+647,java.base,sun.nio.fs.UnixCopyFile,"transfer(int, int, long)",files
+648,java.base,sun.nio.fs.UnixNativeDispatcher,"access0(long, int)",files
+649,java.base,sun.nio.fs.UnixNativeDispatcher,"chmod0(long, int)",files
+650,java.base,sun.nio.fs.UnixNativeDispatcher,"chown0(long, int, int)",files
+651,java.base,sun.nio.fs.UnixNativeDispatcher,close0(int),files
+652,java.base,sun.nio.fs.UnixNativeDispatcher,closedir(long),files
+653,java.base,sun.nio.fs.UnixNativeDispatcher,dup(int),files
+654,java.base,sun.nio.fs.UnixNativeDispatcher,exists0(long),files
+655,java.base,sun.nio.fs.UnixNativeDispatcher,"fchmod(int, int)",files
+656,java.base,sun.nio.fs.UnixNativeDispatcher,"fchown(int, int, int)",files
+657,java.base,sun.nio.fs.UnixNativeDispatcher,fdopendir(int),files
+658,java.base,sun.nio.fs.UnixNativeDispatcher,"fgetxattr0(int, long, long, int)",files
+659,java.base,sun.nio.fs.UnixNativeDispatcher,"flistxattr(int, long, int)",files
+660,java.base,sun.nio.fs.UnixNativeDispatcher,"fremovexattr0(int, long)",files
+661,java.base,sun.nio.fs.UnixNativeDispatcher,"fsetxattr0(int, long, long, int)",files
+662,java.base,sun.nio.fs.UnixNativeDispatcher,"fstat(int, sun.nio.fs.UnixFileAttributes)",files
+663,java.base,sun.nio.fs.UnixNativeDispatcher,"fstatat0(int, long, int, sun.nio.fs.UnixFileAttributes)",files
+664,java.base,sun.nio.fs.UnixNativeDispatcher,"futimens(int, long, long)",files
+665,java.base,sun.nio.fs.UnixNativeDispatcher,"futimes(int, long, long)",files
+666,java.base,sun.nio.fs.UnixNativeDispatcher,getcwd(),files
+669,java.base,sun.nio.fs.UnixNativeDispatcher,getlinelen(long),files
+673,java.base,sun.nio.fs.UnixNativeDispatcher,"lchown0(long, int, int)",files
+674,java.base,sun.nio.fs.UnixNativeDispatcher,"link0(long, long)",files
+675,java.base,sun.nio.fs.UnixNativeDispatcher,"lstat0(long, sun.nio.fs.UnixFileAttributes)",files
+676,java.base,sun.nio.fs.UnixNativeDispatcher,"lutimes0(long, long, long)",files
+677,java.base,sun.nio.fs.UnixNativeDispatcher,"mkdir0(long, int)",files
+678,java.base,sun.nio.fs.UnixNativeDispatcher,"mknod0(long, int, long)",files
+679,java.base,sun.nio.fs.UnixNativeDispatcher,"open0(long, int, int)",files
+680,java.base,sun.nio.fs.UnixNativeDispatcher,"openat0(int, long, int, int)",files
+681,java.base,sun.nio.fs.UnixNativeDispatcher,opendir0(long),files
+682,java.base,sun.nio.fs.UnixNativeDispatcher,"read(int, long, int)",files
+683,java.base,sun.nio.fs.UnixNativeDispatcher,readdir(long),files
+684,java.base,sun.nio.fs.UnixNativeDispatcher,readlink0(long),files
+685,java.base,sun.nio.fs.UnixNativeDispatcher,realpath0(long),files
+686,java.base,sun.nio.fs.UnixNativeDispatcher,"rename0(long, long)",files
+687,java.base,sun.nio.fs.UnixNativeDispatcher,"renameat0(int, long, int, long)",files
+688,java.base,sun.nio.fs.UnixNativeDispatcher,rewind(long),files
+689,java.base,sun.nio.fs.UnixNativeDispatcher,rmdir0(long),files
+690,java.base,sun.nio.fs.UnixNativeDispatcher,"stat0(long, sun.nio.fs.UnixFileAttributes)",files
+691,java.base,sun.nio.fs.UnixNativeDispatcher,stat1(long),files
+692,java.base,sun.nio.fs.UnixNativeDispatcher,"statvfs0(long, sun.nio.fs.UnixFileStoreAttributes)",files
+694,java.base,sun.nio.fs.UnixNativeDispatcher,"symlink0(long, long)",files
+695,java.base,sun.nio.fs.UnixNativeDispatcher,unlink0(long),files
+696,java.base,sun.nio.fs.UnixNativeDispatcher,"unlinkat0(int, long, int)",files
+697,java.base,sun.nio.fs.UnixNativeDispatcher,"utimes0(long, long, long)",files
+698,java.base,sun.nio.fs.UnixNativeDispatcher,"write(int, long, int)",files
+859,java.desktop,sun.awt.image.GifImageDecoder,"parseImage(int, int, int, int, boolean, int, byte[], byte[], java.awt.image.IndexColorModel)",files
+872,java.desktop,sun.awt.image.JPEGImageDecoder,"readImage(java.io.InputStream, byte[])",files
+879,java.desktop,sun.awt.UNIXToolkit,load_gtk_icon(java.lang.String),files
+880,java.desktop,sun.awt.UNIXToolkit,"load_gtk(int, boolean)",files
+883,java.desktop,sun.awt.UNIXToolkit,unload_gtk(),files
+890,java.desktop,sun.awt.X11.XDesktopPeer,"init(int, boolean)",files
+1047,java.desktop,sun.awt.X11.XRobotPeer,loadNativeLibraries(),files
+1053,java.desktop,sun.awt.X11.XTaskbarPeer,"init(java.lang.String, int, boolean)",files
+1310,java.desktop,sun.print.CUPSPrinter,initIDs(),files
+1388,java.prefs,java.util.prefs.FileSystemPreferences,"chmod(java.lang.String, int)",files
+1389,java.prefs,java.util.prefs.FileSystemPreferences,"lockFile0(java.lang.String, int, boolean)",files
+1390,java.prefs,java.util.prefs.FileSystemPreferences,unlockFile0(int),files
+1411,java.security.jgss,sun.security.jgss.wrapper.GSSLibStub,"init(java.lang.String, boolean)",files
+1435,java.smartcardio,sun.security.smartcardio.PlatformPCSC,initialize(java.lang.String),files
